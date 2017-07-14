@@ -1,0 +1,24 @@
+.loading{
+  width: 120px;
+  height: 80px;
+  position:absolute;
+  right: 560px;
+  top: 120px;
+  text-align:center;
+  background-color:rgba(0,0,0,.7);
+  border-radius: 5px;
+}
+.imgBox{
+  width: 120px; height: 50px; text-align: center;
+}
+.img{
+  width: 35px;
+  height: 35px;
+  display: inline;
+  margin-right: 43px;
+  margin-top: 8px;
+
+}
+.loadingText{
+  width: 120px; text-align: center; color: #fff;
+}

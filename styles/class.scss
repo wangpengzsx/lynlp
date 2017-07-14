@@ -1,0 +1,32 @@
+.info-containers {
+  margin-top: 37px;
+  position: relative;
+  font-size: 0;
+  background-image: url(../images/demo_33.png)
+}
+
+.info-containers li {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 41px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 41px;
+  color: #fff;
+  z-index: 2
+}
+
+.info-containers li.selected {
+  font-size: 18px;
+  color: #000
+}
+
+.info-containers li.move-scale {
+  position: absolute;
+  top: -9px;
+  width: 120px;
+  height: 60px;
+  background-image: url(../images/demo-scale-tips1.png);
+  z-index: 1
+}
